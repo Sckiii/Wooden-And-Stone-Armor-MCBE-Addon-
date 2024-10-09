@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "woodenandstonearmor:acacia_boots"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "A A",
+            "A A"
+        ],
+        "key": {
+            "A": "minecraft:acacia_log"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:acacia_log",
+                "data": 4
+            }
+        ],
+        "result": "woodenandstonearmor:acacia_boots"
+    }
+}

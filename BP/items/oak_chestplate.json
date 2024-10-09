@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "woodenandstonearmor:oak_chestplate",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.chestplate",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": "oak_chestplate",
+            "minecraft:display_name": {
+                "value": "Oak Chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "slot": "armor_torso",
+                "value": 10
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "protection": 1
+            },
+            "minecraft:durability": {
+                "max_durability": 80
+            }
+        }
+    }
+}
